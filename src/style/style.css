@@ -2,7 +2,7 @@
 
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif!important;
 }
 
 .navbar li a {
@@ -12,11 +12,8 @@
     display: block;
 }
 
-.dropdown-menu {
-    position: absolute !important;
-    top: 47px !important;
+ .dropdown-menu {
     border: none;
-    border-top: 3px solid #861b13;
     border-radius: 0;
 }
 
@@ -24,4 +21,7 @@
 
 .home {
     height: 100vh;
+}
+.noticias {
+    height: 200vh;
 }
