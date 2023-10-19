@@ -1,0 +1,27 @@
+@import url(./fonts.css);
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li a {
+    color: #313131;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    top: 47px !important;
+    border: none;
+    border-top: 3px solid #861b13;
+    border-radius: 0;
+}
+
+
+
+.home {
+    height: 100vh;
+}
