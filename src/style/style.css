@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url(./color.css);
 * {
     font-family: 'Roboto', sans-serif !important;
 }
@@ -22,13 +22,13 @@
     height: 100vh;
     margin-top: 50px;
 }
+
 .carrossel .carousel-caption .btn {
-    background-color: #edede2;
+    background-color: var(--primary);
     color: #313131;
     border: none;
     font-weight: bold;
 }
-
 .home {
     height: 100vh;
 }
