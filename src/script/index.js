@@ -1,11 +1,8 @@
 window.addEventListener('scroll', function () {
-    var navbar = document.getElementById('navbar');
-    var carousel = document.querySelector('.home #carouselExampleCaptions');
-    var carouselPosition = carousel.offsetTop;
-
-    if (window.scrollY > carouselPosition) {
-        navbar.classList.add('fixed-top');
+    var navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
     } else {
-        navbar.classList.remove('fixed-top');
+        navbar.classList.remove('scrolled');
     }
 });
