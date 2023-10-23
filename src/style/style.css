@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url(./color.css);
+
+/* 
+Configurações globais (Estilos aplicados aqui alteram 
+todos os elementos envolvidos na página) 
+*/
 * {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
+/* Navbar */
+/* Navbar */
+/* Navbar */
+
+
 .navbar li a {
-    color: #313131;
+    color: var(--color-secondary);
+    margin: 0 10px;
     font-size: 14px;
     font-weight: bold;
     display: block;
@@ -16,21 +28,63 @@
     border-radius: 0;
 }
 
-
+/* Carrossel de imagens */
+/* Carrossel de imagens */
+/* Carrossel de imagens */
 
 .carrossel {
-    height: 100vh;
     margin-top: 50px;
 }
 
 .carrossel .carousel-caption .btn {
-    background-color: var(--primary);
-    color: #313131;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     border: none;
     font-weight: bold;
 }
-.home {
-    height: 100vh;
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
 }
 
 
+/* HOME */
+/* HOME */
+/* HOME */
+
+
+.divTitulo {
+    margin-top: 70px;
+}
+
+.divTitulo h3 {
+    font-weight:700;
+    color: var(--color-tertiary);
+    letter-spacing: 1px;
+    padding: 0 0 10px;
+}
+
+.linhaCentral {
+    background-color: var(--color-quaternary);
+    width: 90px;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.home .cardsContainer {
+    width: 70%;
+}
+
+.home .cardsContainer .card-body a {
+    background-color: transparent!important;
+    color: var(--color-quaternary);
+    border: var(--color-quaternary) 1px solid;
+    border-radius: 30px;
+}
+
+
+.noticias {
+    height: 100vh;
+}
+  
