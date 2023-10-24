@@ -7,7 +7,7 @@ Configurações globais (Estilos aplicados aqui alteram
 todos os elementos envolvidos na página) 
 */
 * {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif, 'Font Awesome 6 free'!important;
 }
 
 /* Navbar */
@@ -28,9 +28,12 @@ todos os elementos envolvidos na página)
     border-radius: 0;
 }
 
-/* Carrossel de imagens */
-/* Carrossel de imagens */
-/* Carrossel de imagens */
+.navbar-toggler {
+    border: none;
+}
+/* seção Carrossel de imagens */
+/* seção Carrossel de imagens */
+/* seção Carrossel de imagens */
 
 .carrossel {
     margin-top: 50px;
@@ -49,14 +52,17 @@ todos os elementos envolvidos na página)
 }
 
 
-/* HOME */
-/* HOME */
-/* HOME */
+/* seção HOME */
+/* seção HOME */
+/* seção HOME */
 
 
 .divTitulo {
-    margin-top: 70px;
+    padding: 3rem;
 }
+
+/* Responsivo para adaptar fonte do subtitulo (fica grudado nas bordas caso tirar) */
+
 
 .divTitulo h3 {
     font-weight:700;
@@ -76,15 +82,41 @@ todos os elementos envolvidos na página)
     width: 70%;
 }
 
+.cardsContainer .card-text {
+    font-size: 13px;
+}
+
+.cardsContainer .card-title {
+    font-weight: 700;
+    color: var(--color-tertiary);
+}
+
 .home .cardsContainer .card-body a {
     background-color: transparent!important;
     color: var(--color-quaternary);
     border: var(--color-quaternary) 1px solid;
     border-radius: 30px;
 }
+.home .cardsContainer .card {
+    padding: 1rem;
+}
 
+/* TAMANHO ICONES */
+/* TAMANHO ICONES */
+/* TAMANHO ICONES */
+.fa-thumbs-up, .fa-handshake, .fa-building, .fa-file-contract, .fa-user-secret, .fa-comments {
+    font-size: 100px;
+    color: var(--color-quaternary);
+}
+
+
+/* seção noticias */
+/* seção noticias */
+/* seção noticias */
 
 .noticias {
     height: 100vh;
 }
+
+
   
