@@ -7,7 +7,7 @@ Configurações globais (Estilos aplicados aqui alteram
 todos os elementos envolvidos na página) 
 */
 * {
-    font-family: 'Open Sans', sans-serif, 'Font Awesome 6 free'!important;
+    font-family: 'Open Sans', 'Font Awesome 6 free', sans-serif;
 }
 
 /* Navbar */
@@ -61,8 +61,6 @@ todos os elementos envolvidos na página)
     padding: 3rem;
 }
 
-/* Responsivo para adaptar fonte do subtitulo (fica grudado nas bordas caso tirar) */
-
 
 .divTitulo h3 {
     font-weight:700;
@@ -78,7 +76,7 @@ todos os elementos envolvidos na página)
     margin-top: 30px;
 }
 
-.home .cardsContainer {
+.cardsContainer {
     width: 70%;
 }
 
@@ -97,7 +95,7 @@ todos os elementos envolvidos na página)
     border: var(--color-quaternary) 1px solid;
     border-radius: 30px;
 }
-.home .cardsContainer .card {
+ .home .cardsContainer .card {
     padding: 1rem;
 }
 
@@ -114,9 +112,53 @@ todos os elementos envolvidos na página)
 /* seção noticias */
 /* seção noticias */
 
-.noticias {
-    height: 100vh;
+
+
+.noticias .cardsContainer .card {
+    padding: 0;
 }
 
+.noticias .cardsContainer .card-body a {
+    background-color: transparent!important;
+    color: var(--color-quaternary);
+    border: none;
+    padding: 0;
+    font-size: 14px;
+}
 
-  
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+.footer {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.footer .contact-area {
+    padding: 1rem;
+    width: 90%;
+}
+
+.footer .contatos h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top:1rem ;
+    color: var(--color-quaternary);
+}
+
+.footer .fa-phone, .fa-whatsapp, .fa-envelope, .fa-square-facebook, .fa-location-dot, .fa-instagram {
+    font-size: 35px;
+    color: white;
+}
+
+.infoContato p {
+margin: 0;
+font-weight: 700;
+font-size: 13px;
+}
+
+.infoContato {
+    margin: 10px 0 10px 20px;
+}
