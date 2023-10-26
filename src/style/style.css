@@ -7,13 +7,19 @@ Configurações globais (Estilos aplicados aqui alteram
 todos os elementos envolvidos na página) 
 */
 * {
+    /* ALTERAR ESTA LINHA (font-family) 
+    PODE BUGAR OS ICONES! CONFIRA A PAGINA AO ALTERAR */
     font-family: 'Open Sans', 'Font Awesome 6 free', sans-serif;
 }
 
 /* Navbar */
 /* Navbar */
 /* Navbar */
-
+.navbar {
+    background-color: #edede2;
+    box-shadow: 0 0 10px black;
+    padding: 5px 10px;
+}
 
 .navbar li a {
     color: var(--color-secondary);
@@ -23,14 +29,25 @@ todos os elementos envolvidos na página)
     display: block;
 }
 
+.nav-link:hover {
+    color: var(--color-tertiary) !important;
+}
+
 .dropdown-menu {
     border: none;
+    border-bottom: 3px solid var(--color-quaternary);
     border-radius: 0;
+    background-color: var(--color-primary);
+}
+
+.dropdown-menu .dropdown-item {
+    width: 90%;
 }
 
 .navbar-toggler {
     border: none;
 }
+
 /* seção Carrossel de imagens */
 /* seção Carrossel de imagens */
 /* seção Carrossel de imagens */
@@ -41,9 +58,18 @@ todos os elementos envolvidos na página)
 
 .carrossel .carousel-caption .btn {
     background-color: var(--color-primary);
-    color: var(--color-secondary);
+    color: var(--color-quaternary);
     border: none;
+    border-radius: 20px;
     font-weight: bold;
+}
+
+.carrossel .carousel-caption .btn:hover {
+    background-color: var(--color-quaternary);
+    color: var(--color-primary);
+
+
+
 }
 
 .carousel-item img {
@@ -63,7 +89,7 @@ todos os elementos envolvidos na página)
 
 
 .divTitulo h3 {
-    font-weight:700;
+    font-weight: 700;
     color: var(--color-tertiary);
     letter-spacing: 1px;
     padding: 0 0 10px;
@@ -90,19 +116,30 @@ todos os elementos envolvidos na página)
 }
 
 .home .cardsContainer .card-body a {
-    background-color: transparent!important;
+    background-color: transparent !important;
     color: var(--color-quaternary);
     border: var(--color-quaternary) 1px solid;
     border-radius: 30px;
 }
- .home .cardsContainer .card {
+
+.home .cardsContainer .card-body a:hover {
+    background-color: var(--color-quaternary) !important;
+    color: white;
+}
+
+.home .cardsContainer .card {
     padding: 1rem;
 }
 
 /* TAMANHO ICONES */
 /* TAMANHO ICONES */
 /* TAMANHO ICONES */
-.fa-thumbs-up, .fa-handshake, .fa-building, .fa-file-contract, .fa-user-secret, .fa-comments {
+.fa-thumbs-up,
+.fa-handshake,
+.fa-building,
+.fa-file-contract,
+.fa-user-secret,
+.fa-comments {
     font-size: 100px;
     color: var(--color-quaternary);
 }
@@ -119,11 +156,23 @@ todos os elementos envolvidos na página)
 }
 
 .noticias .cardsContainer .card-body a {
-    background-color: transparent!important;
+    background-color: transparent !important;
     color: var(--color-quaternary);
     border: none;
     padding: 0;
     font-size: 14px;
+}
+
+.maisNoticiasBtn {
+    border-radius: 20px;
+    background-color: white;
+    color: var(--color-quaternary);
+    border: 1px solid var(--color-quaternary);
+}
+
+.maisNoticiasBtn:hover {
+    background-color: var(--color-quaternary);
+    color: white;
 }
 
 /* FOOTER */
@@ -144,19 +193,24 @@ todos os elementos envolvidos na página)
     font-weight: 700;
     text-transform: uppercase;
     font-size: 20px;
-    margin-top:1rem ;
+    margin-top: 1rem;
     color: var(--color-quaternary);
 }
 
-.footer .fa-phone, .fa-whatsapp, .fa-envelope, .fa-square-facebook, .fa-location-dot, .fa-instagram {
+.footer .fa-phone,
+.fa-whatsapp,
+.fa-envelope,
+.fa-square-facebook,
+.fa-location-dot,
+.fa-instagram {
     font-size: 35px;
     color: white;
 }
 
 .infoContato p {
-margin: 0;
-font-weight: 700;
-font-size: 13px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 13px;
 }
 
 .infoContato {
