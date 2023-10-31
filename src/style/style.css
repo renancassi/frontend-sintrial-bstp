@@ -216,3 +216,35 @@ todos os elementos envolvidos na página)
 .infoContato {
     margin: 10px 0 10px 20px;
 }
+
+
+/* PÁGINA INSTITUCIONAL (./institucional) */
+/* PÁGINA INSTITUCIONAL (./institucional) */
+/* PÁGINA INSTITUCIONAL (./institucional) */
+
+.tituloPrincipal {
+    margin-top: 67px;
+    background-color: var(--color-tertiary);
+    padding: 30px;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.containerSobreNos {
+    width: 55%;
+}
+
+
+.sobreNos .containerSobreNos .sobreNosTitulo{
+    color: var(--color-quintenary);
+    font-weight: 600;
+    margin: 3rem 0 3rem 0;
+}
+
+.sobreNos .containerSobreNos p {
+    font-size: 16px;
+}
+
+.sobreNos .containerSobreNos:nth-child(2) p {
+    font-size: 18px;
+}
