@@ -248,3 +248,7 @@ todos os elementos envolvidos na página)
 .sobreNos .containerSobreNos:nth-child(2) p {
     font-size: 18px;
 }
+
+.gridCardCategorias {
+    width: 50%;
+}
