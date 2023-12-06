@@ -145,6 +145,7 @@ todos os elementos envolvidos na página)
 }
 
 
+
 /* seção noticias */
 /* seção noticias */
 /* seção noticias */
@@ -227,17 +228,17 @@ todos os elementos envolvidos na página)
     background-color: var(--color-tertiary);
     padding: 30px;
     color: var(--color-primary);
-    font-weight: 700;
+    font-weight: bold;
 }
 
-.containerSobreNos {
-    width: 55%;
+.containerSobreNos, .gridCategorias, .estrutura {
+    width: 70%;
 }
 
 
-.sobreNos .containerSobreNos .sobreNosTitulo{
+.sobreNos .containerSobreNos .sobreNosTitulo, .estrutura .estruturaTitulo{
     color: var(--color-quintenary);
-    font-weight: 600;
+    font-weight: 700;
     margin: 3rem 0 3rem 0;
 }
 
@@ -249,6 +250,19 @@ todos os elementos envolvidos na página)
     font-size: 18px;
 }
 
-.gridCardCategorias {
-    width: 55%;
-}   
+
+.gridCategorias h5 {
+    font-weight: bold;
+}
+
+.gridCardCategorias .categoria {
+    width: 500px;
+    height: 80px;
+    background-color: var(--color-primary);
+}
+
+.fa-check {
+    font-size: 40px;
+    color: var(--color-tertiary);
+    margin-right: 15px;
+}
