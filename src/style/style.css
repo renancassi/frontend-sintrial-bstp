@@ -228,6 +228,8 @@ todos os elementos envolvidos na página)
     background-color: var(--color-tertiary);
     padding: 30px;
     color: var(--color-primary);
+}
+.tituloPrincipal h1 {
     font-weight: bold;
 }
 
@@ -265,4 +267,168 @@ todos os elementos envolvidos na página)
     font-size: 40px;
     color: var(--color-tertiary);
     margin-right: 15px;
+}
+
+
+.estruturaCardTitulo{
+    font-weight: bold;
+}
+
+
+/* PÁGINA Convencoes (./Convencoes) */
+/* PÁGINA Convencoes (./Convencoes) */
+/* PÁGINA Convencoes (./Convencoes) */
+
+.convencoes {
+    width: 70%;
+}
+
+.convencoes .accordion .accordion-item .accordion-button {
+    font-size: 25px;
+}
+.convencoes .accordion .accordion-item .accordion-body ul li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #f4f4f4;
+    --bs-accordion-active-bg:#f4f4f4;
+}
+
+
+
+/* PÁGINA Cadastrar Empresa (./cadastrar-empresa) */
+/* PÁGINA Cadastrar Empresa (./cadastrar-empresa) */
+/* PÁGINA Cadastrar Empresa (./cadastrar-empresa) */
+
+.formCadastroEmpresa {
+    width: 70%;
+}
+
+.formCadastroEmpresa h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.formCadastroEmpresa form .row {
+    width: 120%;
+}
+
+
+
+.formCadastroEmpresa .botaoSubmit {
+    background-color: transparent !important;
+    color: var(--color-quaternary);
+    border: var(--color-quaternary) 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.formCadastroEmpresa .botaoSubmit:hover {
+    background-color: var(--color-quaternary) !important;
+    color: white;
+}
+
+/* PÁGINA Denuncia anonima (./denuncia-anonima) */
+/* PÁGINA Denuncia anonima (./denuncia-anonima) */
+/* PÁGINA Denuncia anonima (./denuncia-anonima) */
+
+.formDenuncia {
+    width: 70%;
+}
+
+.formDenuncia h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+.formDenuncia .botaoSubmit {
+    background-color: transparent !important;
+    color: var(--color-quaternary);
+    border: var(--color-quaternary) 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.formDenuncia .botaoSubmit:hover {
+    background-color: var(--color-quaternary) !important;
+    color: white;
+}
+
+
+/* PÁGINA Contribuicoes (./contribuicoes) */
+/* PÁGINA Contribuicoes (./contribuicoes) */
+/* PÁGINA Contribuicoes (./contribuicoes) */
+.contribuicoes .btnContribuicoes {
+    background-color: transparent !important;
+    color: var(--color-tertiary);
+    border: var(--color-quaternary) 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.contribuicoes .btnContribuicoes:hover {
+    background-color: #0072C5 !important;
+    color: white;
+}
+
+.contribuicoes .btnWhatsapp {
+    background-color: transparent !important;
+    color: var(--color-tertiary);
+    border: var(--color-quaternary) 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.contribuicoes .btnWhatsapp:hover {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+/* PÁGINA Beneficios (./beneficios) */
+/* PÁGINA Beneficios (./beneficios) */
+/* PÁGINA Beneficios (./beneficios) */
+
+
+
+.containerBeneficios {
+    width: 70%;
+}
+.containerBeneficios p {
+    font-size: 19px;
+}
+
+
+.cardsContainerBeneficios {
+    width: 70%;
+}
+
+.cardsContainerBeneficios .card-text {
+    font-size: 13px;
+}
+
+.cardsContainerBeneficios .card-title {
+    font-weight: 700;
+    color: var(--color-tertiary);
+}
+
+.containerBeneficios .cardsContainerBeneficios .card {
+    padding: 1rem;
+}
+.cardsContainerBeneficios .card {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.cardsContainerBeneficios .cardGrid {
+    width: 200px;
+}
+
+.cardsContainerBeneficios .card .fa-solid {
+    font-size: 90px;
+    color: var(--color-quaternary);
 }
