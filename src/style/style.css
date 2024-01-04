@@ -183,6 +183,7 @@ todos os elementos envolvidos na página)
 .footer {
     background-color: var(--color-secondary);
     color: white;
+
 }
 
 .footer .contact-area {
@@ -431,4 +432,19 @@ todos os elementos envolvidos na página)
 .cardsContainerBeneficios .card .fa-solid {
     font-size: 90px;
     color: var(--color-quaternary);
+}
+
+
+/* PÁGINA Noticias (./noticias) */
+/* PÁGINA Noticias (./noticias) */
+/* PÁGINA Noticias (./noticias) */
+
+
+.noticiasPagina {
+    width: 70%;
+}
+
+.noticias h4 {
+    font-weight: bold;
+    font-size: 30px;
 }
