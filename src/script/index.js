@@ -50,3 +50,38 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+
+
+  const setup = (function() {
+    // console.log('setup');
+    document.getElementById('sendMessage').onsubmit = function(e) {
+        e.preventDefault();
+        console.log('click');
+        const meuNumero = '554688139272';
+        const nome_responsavel = (document.getElementById('nome_responsavel').value)
+        const cargo = (document.getElementById('cargo_empresa').value)
+        const empresa = (document.getElementById('nome_empresa').value)
+        const cnpj = (document.getElementById('cnpj_empresa').value)
+        const email = (document.getElementById('email_responsavel').value)
+        const number = (document.getElementById('telefone_responsavel').value || '')
+            .replace(/\D/g, '')
+        // .replace(new RegExp(^${country}), '');
+
+        const text = 'Olá, desejo cadastrar minha empresa. Meu nome é *' + nome_responsavel + '* - Email: *' + email + '* - CNPJ: *' + cnpj + '* Empresa: *' + empresa + '* Cargo: *' + cargo + '*';
+        if (!number) {
+            alert('Invalid number');
+            return;
+        }
+        // const link = https://wa.me/${country}${number}?text=${text};
+        link = `https://web.whatsapp.com/send?phone=${meuNumero}&text=${text}`;
+
+        console.log(number, link);
+        window.open(link);
+    };
+})
+if (window.attachEvent) {
+    window.attachEvent('onload', setup);
+} else {
+    window.addEventListener('load', setup, false);
+}
