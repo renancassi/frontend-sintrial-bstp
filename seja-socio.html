@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Denúncia Anônima | Sintrial - Sindicato dos Trabalhadores nas Indústrias</title>
+    <title>Seja Sócio | Sintrial - Sindicato dos Trabalhadores nas Indústrias</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./src/style/frameworks/fontawesome-6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./src/style/style.css">
@@ -46,9 +46,8 @@
                                 Contato
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                                <li><a class="dropdown-item" href="./fale-conosco.html">Fale Conosco</a></li>
-
-                               <li><a class="dropdown-item" href="./seja-socio.html">Seja Sócio</a></li>
+                                <li><a class="dropdown-item" href="./fale-conosco.html">Fale Conosco</a></li>
+                                <li><a class="dropdown-item" href="./seja-socio.html">Seja Sócio</a></li>
                                 <li><a class="dropdown-item" href="./cadastrar-empresa.html">Cadastre sua empresa</a>
                                 </li>
                                 <li><a class="dropdown-item" href="./denuncia-anonima.html">Denúncia anônima</a></li>
@@ -63,29 +62,34 @@
 
 
     <div class="tituloPrincipal text-center">
-        <h1>Denúncia Anônima</h1>
+        <h1>Seja Sócio</h1>
     </div>
 
-    <section class="formDenuncia container-fluid mb-5">
-        <h4 class="mt-4 mb-2">Em caso de irregularidade no ambiente de trabalho, denuncie ao Sintrial!</h4>
-        <h5 class="mt-2 mb-4">Por meio deste canal, o trabalhador pode denunciar situações irregulares nas condições de
-            trabalho oferecidas pela empresa. Este canal é anônimo, e a privacidade do associado é garantida. Depois de
-            receber a denúncia, o Sindicato investigará o ocorrido e buscará tomar providências junto ao empregador.
-        </h5>
+    <section class="formCadastroEmpresa container-fluid mb-5">
+        <h4 class="mt-4 mb-3">Validar título</h4>
+        <h5 class="mt-3 mb-4">Validar texto</h5>
 
-        <form>
+        <form class="form" method="POST" id="sendMessageSocio">
             <div class="row">
-                <div class="col-md-7 mb-3">
-                    <label>Nome (Opcional):</label>
-                    <input type="text" id="nome_denuncia" class="form-control" placeholder="Digite seu Nome">
+                <div class="col-md-5 mb-3">
+                    <label>Responsavel:</label>
+                    <input type="text" id="nome_socio" class="form-control" placeholder="Digite seu Nome">
                 </div>
-                <div class="col-md-7 mb-3">
+                <div class="col-md-5 mb-3">
+                    <label>Cargo:</label>
+                    <input type="text" id="cargo_empresa" class="form-control" placeholder="Digite seu Cargo">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label>Empresa:</label>
+                    <input type="text" id="nome_empresa" class="form-control" placeholder="Digite o Nome da Empresa">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label>Fone(com DDD):</label>
+                    <input type="text" id="telefone_socio" class="form-control" placeholder="Digite seu telefone">
+                </div>
+                <div class="col-md-5 mb-3">
                     <label>E-mail:</label>
-                    <input type="text" id="cargo_empresa" class="form-control" placeholder="Digite seu e-mail">
-                </div>
-                <div class="col-md-7 mb-3">
-                    <label>Mensagem:</label>
-                    <textarea cols="40" rows="10" style="width: 1080px; height: 237px;"></textarea>
+                    <input type="email" id="email_socio" class="form-control" placeholder="Digite seu e-mail">
                 </div>
             </div>
             <button class="botaoSubmit" type="submit">Cadastrar</button>

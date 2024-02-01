@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Denúncia Anônima | Sintrial - Sindicato dos Trabalhadores nas Indústrias</title>
+    <title>Fale Conosco | Sintrial - Sindicato dos Trabalhadores nas Indústrias</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./src/style/frameworks/fontawesome-6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./src/style/style.css">
@@ -63,37 +63,105 @@
 
 
     <div class="tituloPrincipal text-center">
-        <h1>Denúncia Anônima</h1>
+        <h1>Fale Conosco</h1>
     </div>
 
-    <section class="formDenuncia container-fluid mb-5">
-        <h4 class="mt-4 mb-2">Em caso de irregularidade no ambiente de trabalho, denuncie ao Sintrial!</h4>
-        <h5 class="mt-2 mb-4">Por meio deste canal, o trabalhador pode denunciar situações irregulares nas condições de
-            trabalho oferecidas pela empresa. Este canal é anônimo, e a privacidade do associado é garantida. Depois de
-            receber a denúncia, o Sindicato investigará o ocorrido e buscará tomar providências junto ao empregador.
-        </h5>
-
-        <form>
-            <div class="row">
-                <div class="col-md-7 mb-3">
-                    <label>Nome (Opcional):</label>
-                    <input type="text" id="nome_denuncia" class="form-control" placeholder="Digite seu Nome">
+    <section class="faleConosco container-fluid mt-5">
+    
+        <div class="gridEsrutura mt-3 row">
+    
+    
+          <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card shadow" data-telefone="(46) 3536-1972"
+              data-endereco="Rua Clevelândia, 1053 – Centro Sul CEP: 85660-000" style="width: 21rem;">
+              <img class="card-img-top" src="./src/image/img-testes/1920x1080.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="faleConoscoCardTitulo">SEDE ADMINISTRATIVA DOIS VIZINHOS</h4>
+                <p class="card-text limiteTexto"></p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn">Fale Conosco</a>
                 </div>
-                <div class="col-md-7 mb-3">
-                    <label>E-mail:</label>
-                    <input type="text" id="cargo_empresa" class="form-control" placeholder="Digite seu e-mail">
-                </div>
-                <div class="col-md-7 mb-3">
-                    <label>Mensagem:</label>
-                    <textarea cols="40" rows="10" style="width: 1080px; height: 237px;"></textarea>
-                </div>
+              </div>
             </div>
-            <button class="botaoSubmit" type="submit">Cadastrar</button>
-        </form>
-
-
-    </section>
-
+          </div>
+    
+          <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card shadow" data-telefone="123-456-7890" data-endereco="Rua Exemplo, 123" style="width: 21rem;">
+              <img class="card-img-top" src="./src/image/img-testes/1920x1080.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class=" faleConoscoCardTitulo">SUB-SEDE ITAPEJARA D'OESTE</h4>
+                <p class="card-text limiteTexto">
+                  </p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn">Fale Conosco</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card shadow" data-telefone="123-456-7890" data-endereco="Rua Exemplo, 123" style="width: 21rem;">
+              <img class="card-img-top" src="./src/image/img-testes/1920x1080.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="faleConoscoCardTitulo">SUB-SEDE PATO BRANCO</h4>
+                <p class="card-text limiteTexto"></p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn">Fale Conosco</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card shadow" data-telefone="123-456-7890" data-endereco="Rua Exemplo, 123" style="width: 21rem;">
+              <img class="card-img-top" src="./src/image/img-testes/1920x1080.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="faleConoscoCardTitulo">SUB-SEDE PALMAS</h4>
+                <p class="card-text limiteTexto"></p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn">Fale Conosco</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card shadow" data-telefone="123-456-7890" data-endereco="Rua Exemplo, 123" style="width: 21rem;">
+              <img class="card-img-top" src="./src/image/img-testes/1920x1080.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="faleConoscoCardTitulo">SUB-SEDE CORONEL VIVIDA</h4>
+                <p class="card-text limiteTexto"></p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn">Fale Conosco</a>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="modal fade" id="faleConoscoModal" tabindex="-1" aria-labelledby="faleConoscoModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="faleConoscoModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img id="modalImage" class="card-img-top mb-3" alt="Card image cap">
+                <p id="modalContent" class="modal-text"></p>
+    
+                <p id="modalTelefone"></p>
+                <p id="modalEndereco"></p>
+    
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 

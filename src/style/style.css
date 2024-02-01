@@ -234,7 +234,7 @@ todos os elementos envolvidos na página)
     font-weight: bold;
 }
 
-.containerSobreNos, .gridCategorias, .estrutura {
+.containerSobreNos, .gridCategorias, .estrutura, .faleConosco {
     width: 70%;
 }
 
@@ -447,4 +447,31 @@ todos os elementos envolvidos na página)
 .noticias h4 {
     font-weight: bold;
     font-size: 30px;
+}
+
+
+
+/* PÁGINA ERRO (./erro) */
+/* PÁGINA ERRO (./erro) */
+/* PÁGINA ERRO (./erro) */
+
+
+.erroSection {
+    height: 90vh;
+}
+
+.erroContainer {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.erroContainer span {
+    font-weight: bold;
 }
